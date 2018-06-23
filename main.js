@@ -30,7 +30,7 @@ showTime();
 
 //Achtergrond veranderd in tijd
 		var currentTime = new Date().getHours();
-		if (6 <= currentTime && currentTime < 23) {
+		if (6 <= currentTime && currentTime < 19) {
     		if (document.body) {
        		document.body.className = 'dag';
     		}
